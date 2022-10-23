@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
-import { Ulist } from './FriendList.style';
+import { ListItem } from '../FriendListItem/FriendList.style';
 import css from './FriendList.module.css';
 export const FriendList = ({ friends }) => {
   return (
-    <Ulist>
+    <ListItem>
       {friends.map(({ avatar, name, isOnline, id }) => (
         <li key={id} className={css.item}>
           {isOnline === true ? (
@@ -16,7 +16,7 @@ export const FriendList = ({ friends }) => {
           <p className={'name'}>{name}</p>
         </li>
       ))}
-    </Ulist>
+    </ListItem>
   );
 };
 

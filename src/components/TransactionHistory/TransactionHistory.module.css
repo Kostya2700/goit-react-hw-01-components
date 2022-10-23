@@ -1,0 +1,21 @@
+.transaction {
+  margin: 0 auto;
+  width: 500px;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+.td,
+.th {
+  padding: 10px;
+  border: 1px solid #2a2a2a;
+}
+td {
+  text-align: center;
+}
+.thead {
+  background: darkcyan;
+  color: #fff;
+}
+.treee:nth-child(2n + 1) {
+  background-color: rgb(203, 206, 66);
+}

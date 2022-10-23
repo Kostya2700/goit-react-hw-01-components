@@ -8,9 +8,10 @@
   position: relative;
   border-radius: 10%;
 }
-.item:not(:last-child) {
+.item {
   margin-bottom: 10px;
 }
+
 .online {
   display: block;
   width: 15px;
